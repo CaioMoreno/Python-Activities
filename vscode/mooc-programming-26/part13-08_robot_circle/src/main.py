@@ -8,7 +8,6 @@ window = pygame.display.set_mode((640, 480))
 robot = pygame.image.load("robot.png")
 
 angle = 0
-angle2 = 0
 
 clock = pygame.time.Clock()
 
