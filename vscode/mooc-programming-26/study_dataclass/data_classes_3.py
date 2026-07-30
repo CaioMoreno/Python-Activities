@@ -1,9 +1,5 @@
 from dataclasses import dataclass, field
 
-def get_default_points():
-    points = [4, 7, 9, 3, 5]
-    return sum(points) // len(points)
-
 @dataclass(unsafe_hash=True)
 class NewPerson:
     name: str
