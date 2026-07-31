@@ -1,0 +1,16 @@
+class Person:
+
+    def __init__(self, name):
+        self.name = name
+
+    def about_me(self):
+        print(f"I am {self.name}")
+
+    @staticmethod
+    def speak(msg):
+        print(msg)
+
+p = Person("caio")
+p.about_me()
+p.speak("hello")
+Person.speak("kkkkkk")
